@@ -20,7 +20,7 @@ git clone https://github.com/fartovii2311/111
 ```
 
 ```bash
-cd 111
+cd 123
 ```
 
 ```bash
