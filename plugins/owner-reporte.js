@@ -5,7 +5,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
   const teks = `
 𝗠𝗘𝗡𝗦𝗔𝗝𝗘:\n• ${text}\n\n•╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍•\n𝗔𝗧𝗧:
 • wa.me/${m.sender.split`@`[0]}\n𝘙𝘦𝘱𝘰𝘳𝘵𝘦 𝘥𝘦 𝘦𝘳𝘳𝘰𝘳𝘦𝘴...`;
-  conn.reply('+79883576985@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, m, {contextInfo: {mentionedJid: [m.sender]}});
+  conn.reply('+79187653090@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, m, {contextInfo: {mentionedJid: [m.sender]}});
 
 await m.react('📨');
 await m.reply(`\`-ˋˏ ༻🤍 𝙀́𝙓𝙄𝙏𝙊 🤍༺ ˎˊ-\`\n\n𝘌𝘭 𝘳𝘦𝘱𝘰𝘳𝘵𝘦 𝘢 𝘴𝘪𝘥𝘰 𝘦𝘯𝘷𝘪𝘢𝘥𝘰 𝘢𝘮𝘪 𝘤𝘳𝘦𝘢𝘥𝘰𝘳. 

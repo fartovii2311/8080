@@ -27,14 +27,14 @@
     "js-whatsapp",
     "baileys-md"
   ],
-  "homepage": "https://github.com/fartovii2311/111",
+  "homepage": "https://github.com/fartovii2311/8080",
   "author": "DARK-CODE",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fartovii2311/111.git"
+    "url": "git+https://github.com/fartovii2311/8080.git"
   },
   "bugs": {
-    "url": "https://github.com/fartovii2311/111/issues"
+    "url": "https://github.com/fartovii2311/8080/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {

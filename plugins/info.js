@@ -119,8 +119,8 @@ let codigo = `termux-setup-storage
 apt update
 apt upgrade
 pkg install -y git nodejs ffmpeg imagemagick yarn
-git clone https://github.com/GataNina-Li/ЛилитLite-MD 
-cd ЛилитLite-MD
+git clone https://github.com/GataNina-Li/ХищникLite-MD 
+cd ХищникLite-MD
 yarn install
 npm install
 npm start`
@@ -129,15 +129,15 @@ heroku/nodejs\n
 https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git\n
 https://github.com/clhuang/heroku-buildpack-webp-binaries.git`
 let codigo3 = `
-git clone https://github.com/GataNina-Li/ЛилитLite-MD
-cd ЛилитLite-MD
+git clone https://github.com/GataNina-Li/ХищникLite-MD
+cd ХищникLite-MD
 npm install
 npm update
 node .`
 try{	
 let termux = `*◎ T E R M U X*\n\n${codigo}`
-let replit = `*◎ R E P L I T*\n\nhttps://replit.com/github/GataNina-Li/ЛилитLite-MD`
-let heroku = `*◎ H E R O K U*\n\nhttps://heroku.com/deploy?template=https://github.com/GataNina-Li/ЛилитMDLite-Heroku`
+let replit = `*◎ R E P L I T*\n\nhttps://replit.com/github/GataNina-Li/ХищникLite-MD`
+let heroku = `*◎ H E R O K U*\n\nhttps://heroku.com/deploy?template=https://github.com/GataNina-Li/ХищникMDLite-Heroku`
 let windows = `*◎ W I N D O W S / V P S / R D P*\n
 ⎔ _Git_
 https://git-scm.com/downloads
@@ -237,12 +237,12 @@ ofc = await conn.getName(number + '@s.whatsapp.net') //String(contact[1])
 let biografia = await conn.fetchStatus(number +'@s.whatsapp.net').catch(_ => 'undefined')
 let bio = biografia.status?.toString() || `${desc2 == '' ? lenguajeGB.smsContacto2() : desc2}`
 nombre = official[0][0] == String(contact[0]) ? official[0][1] : official[1][0] == String(contact[0]) ? official[1][1] : official[2][0] == String(contact[0]) ? official[2][1] : official[3][0] == String(contact[0]) ? official[3][1] : lenguajeGB.smsContacto3() 
-description = official[0][0] == String(contact[0]) ? 'Solo temas de Лилит' : official[1][0] == String(contact[0]) ? lenguajeGB.smsContacto4() : official[2][0] == String(contact[0]) ? lenguajeGB.smsContacto4() : official[3][0] == String(contact[0]) ? lenguajeGB.smsContacto4() : desc === '' ? lenguajeGB.smsContacto5() : desc
+description = official[0][0] == String(contact[0]) ? 'Solo temas de Хищник' : official[1][0] == String(contact[0]) ? lenguajeGB.smsContacto4() : official[2][0] == String(contact[0]) ? lenguajeGB.smsContacto4() : official[3][0] == String(contact[0]) ? lenguajeGB.smsContacto4() : desc === '' ? lenguajeGB.smsContacto5() : desc
 correo = official[0][0] == String(contact[0]) ? 'socialplus.gata@gamil.com' : official[1][0] == String(contact[0]) ? 'thelolibotm@gmail.com' : official[2][0] == String(contact[0]) ? 'alexismaldonado90700@gmail.com' : mail === '' ? lenguajeGB.smsContacto6() : mail
 lugar = official[0][0] == String(contact[0]) ? '🇪🇨 Ecuador' : official[1][0] == String(contact[0]) ? '🇦🇷 Argentina' : official[2][0] == String(contact[0]) ? '🇲🇽 México' : official[3][0] == String(contact[0]) ? '🇧🇷 Brazil' : country === '' ? lenguajeGB.smsContacto7() : country
 enlace = official[0][0] == String(contact[0]) ? 'https://github.com/GataNina-Li' : official[1][0] == String(contact[0]) ? 'https://github.com/elrebelde21' : official[2][0] == String(contact[0]) ? 'https://github.com/Azami19' : official[3][0] == String(contact[0]) ? 'https://github.com/Abiguelreyes75' : md    
 lista.push([number, ofc, nombre, description, official[3][0] == String(contact[0]) ? null : correo, lugar, enlace, bio, official[1][0] == String(contact[0]) ? 'https://www.youtube.com/@TheLoliBot-MD' : null]) }  
-lista.push([conn.user.jid.split('@')[0], await conn.getName(conn.user.jid), packname, lenguajeGB.smsContacto8(), mail === '' ? 'centerЛилит@gmail.com' : mail, lenguajeGB.smsContacto7(), md, bioBot, yt, ig, fb, paypal, nna])
+lista.push([conn.user.jid.split('@')[0], await conn.getName(conn.user.jid), packname, lenguajeGB.smsContacto8(), mail === '' ? 'centerХищник@gmail.com' : mail, lenguajeGB.smsContacto7(), md, bioBot, yt, ig, fb, paypal, nna])
 await conn.sendContactArray(m.chat, lista, null, { quoted: fkontak })
 /*function handler(m) {
 const data = global.owner.filter(([id, isCreator]) => id && isCreator) 
@@ -357,7 +357,7 @@ await m.reply(lenguajeGB.smsReportGB5())
 break
 }}
 
-handler.command = /^(estado|status|estate|state|stado|stats|botstat(us)?|cuenta(s)?oficiales?|gataig|(cuentas|account)s?g?b|(ig)?gata|(cuentasgata))|gata(bot)?groups?|grupos|groupsgb|grupos(ofc|deЛилит|gb)|grupogb|gatagroups?|group(ofc|sofc)|c(ó|o)digo|sc|git|script|instalar(gata)?bot|proceso(del)?bot|bot(install|proceso)|installbot|owner|creator|propietario|dueño|dueña|propietaria|dueño|creadora|creador|group(s|list|o(lista)?)|list(a)?(de)?grupo(s)?|grupolista|info(gata|bot)|informaci(ón|on)(gata|bot)|contactos?|contacts?|ping|speed|velocidad|rapidez|velocity|dona(te|si)|donar|apoyar|paypal|donating|aportar|report|request|reporte|bugs|bug|reportowner|reportes|reportar$/i
+handler.command = /^(estado|status|estate|state|stado|stats|botstat(us)?|cuenta(s)?oficiales?|gataig|(cuentas|account)s?g?b|(ig)?gata|(cuentasgata))|gata(bot)?groups?|grupos|groupsgb|grupos(ofc|deХищник|gb)|grupogb|gatagroups?|group(ofc|sofc)|c(ó|o)digo|sc|git|script|instalar(gata)?bot|proceso(del)?bot|bot(install|proceso)|installbot|owner|creator|propietario|dueño|dueña|propietaria|dueño|creadora|creador|group(s|list|o(lista)?)|list(a)?(de)?grupo(s)?|grupolista|info(gata|bot)|informaci(ón|on)(gata|bot)|contactos?|contacts?|ping|speed|velocidad|rapidez|velocity|dona(te|si)|donar|apoyar|paypal|donating|aportar|report|request|reporte|bugs|bug|reportowner|reportes|reportar$/i
 export default handler
 
 function clockString(ms) {

@@ -7,7 +7,7 @@ m.reply('╰⊱✅️⊱ *REALIZADO* / *DONE* ⊱✅️⊱╮\n😊 𝗖𝗥𝗘
 let group = await conn.groupCreate(text, [m.sender])
 let link = await conn.groupInviteCode(group.gid)
 let url = 'https' + link;
-m.reply('😺 *Лилит:* ' + url)
+m.reply('😺 *Хищник:* ' + url)
 } catch (e) {
 m.reply(`╰⊱❌⊱ *FALLÓ* / *FAILED* ⊱❌⊱╮\n❌ 𝗘𝗥𝗥𝗢𝗥\n\n❌ 𝗠𝗜𝗦𝗧𝗔𝗞𝗘`)
 }

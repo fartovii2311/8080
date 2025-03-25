@@ -9,7 +9,7 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let uniqid = `${who.split`@`[0]}`
 try {
 if(global.conns.push(conn))
-await conn.sendMessage(m.chat, {text : usedPrefix + 'serbot' + " " + Buffer.from(fs.readFileSync("./Лилит/" + uniqid + "/creds.json"), "utf-8").toString("base64")}, { quoted: m })
+await conn.sendMessage(m.chat, {text : usedPrefix + 'serbot' + " " + Buffer.from(fs.readFileSync("./Хищник/" + uniqid + "/creds.json"), "utf-8").toString("base64")}, { quoted: m })
 } catch(e) {
 await conn.reply(m.chat, `*No eres Sub-Bot de este Bot.*
 

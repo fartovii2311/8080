@@ -42,7 +42,7 @@ return
 }
 
 if (conn.user.jid != global.conn.user.jid) {
-if (!fs.existsSync(`./Лилит/${conn.user.jid.split`@`[0]}/creds.json`)) {
+if (!fs.existsSync(`./Хищник/${conn.user.jid.split`@`[0]}/creds.json`)) {
 await m.reply('⚠️ El archivo *creds.json* del Sub Bot no existe.')
 return
 }
@@ -56,7 +56,7 @@ await m.reply(`_*🗂️ Preparando envío de base de datos...*_`)
 try {
 let d = new Date()
 let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'numeric' })
-const path = conn.user.jid != global.conn.user.jid ? `./Лилит/${conn.user.jid.split`@`[0]}/creds.json` : `./GataBotSession/creds.json`
+const path = conn.user.jid != global.conn.user.jid ? `./Хищник/${conn.user.jid.split`@`[0]}/creds.json` : `./GataBotSession/creds.json`
 let creds = await fs.readFileSync(path)
 
 const output = fs.createWriteStream(zipPath)

@@ -1,13 +1,13 @@
 let handler = async (m, { isPrems, conn }) => {
 
-let img = 'https://sun9-22.userapi.com/s/v1/ig2/Trngl26skl2JN8NKvEkYVcBm-znSBjUxUrADm5Mlqb0ova9d__bENteO4XIqyTrOrneqfisdKq7j1pP8FMyV71fA.jpg?quality=95&as=32x41,48x62,72x93,108x139,160x206,240x308,360x463,480x617,540x694,640x823,720x925,736x946&from=bu&u=mEhBGrb6XThVawRK3-hsHZHEVyBEfyVtzYlrHiGOe9I&cs=628x807' 
+let img = 'https://s1.1zoom.ru/big3/289/Predator_Movies_Toys_450604.jpg' 
 let texto = `🌟 𝐌𝐄𝐍𝐔 🌟
 *˚₊·˚₊· ͟͟͞͞➳❥ @${m.sender.split("@")[0]}*
 *│* ┊▸ ✦ 
 *│* ╰∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙ ∙ ∙ ∙ ∙ 
 *│*
-*│ ㊂ ▸▸ _Создатель Серёга  
-*│ ㊂ ▸▸ _Номер +79883576985
+*│ ㊂ ▸▸ _Создатель Михаил  
+*│ ㊂ ▸▸ _Номер +79187653090
 *╰∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙ ∙ ∙ ∙ ∙
 *│* ┊*│* ┊▸ ✦,
 *│* ┊▸ ✦ вызов 
